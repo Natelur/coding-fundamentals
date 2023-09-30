@@ -1,0 +1,235 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(211, 211, 211);
+    margin: 30px;
+    border: 30px;
+    padding: 30px;
+}
+
+
+.container>svg{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: 	rgb(69,69,69);
+    /* margin-top: 50px; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.btn-align{
+    margin-left: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.design{
+    margin-top: 30px;
+}
+
+.content{
+    border-top: 0px;
+    color: rgb(69,69,69);
+    
+}
+
+.header{
+    /* margin-left: 25px; */
+    margin-bottom: 0px;
+    padding: 40px;}
+    /* border-left: 25px;
+} */
+
+.contact-container{
+    /* border: 1px solid blue; */
+    color: white;
+    padding: 40px;
+    padding-top: 0px;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-50337.jpg);
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    /* order: 1; */
+}
+
+.elaborated-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.phone-icon>svg{
+    width: 25px;
+    height: 25px;
+    /* padding-left: 40px; */
+}
+
+.phone-icon{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    padding: 2px;
+    padding-left: 2px;
+    border: 2px;
+}
+.email{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    
+}
+
+.email-logo>svg{
+    width: 25px;
+    height: 25px;
+    padding left: 40px;
+}
+
+.email-logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.email-info{
+    padding: 2px;
+    padding-left: 2px;
+    border: 2px;
+}
+
+.icons>svg{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-content: space-evenly
+
+}
+
+.icons{
+    /* border: 1px solid green; */
+    margin-top:  20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 250px;
+    /* align-content: space-between; */
+}
+
+label{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    }
+
+    input[type=email] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        }
+
+        /* input[type=number] {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            }
+         */
+    
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+    /* order: 1; */
+}
+
+    .fname .lname .email-1 .number-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-align1, .form-align2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+     .contactnmsg-container{
+            display: flex;
+            flex-direction: row;
+        }
+
+    .submit-button{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px;
+        padding: 10px;
+        margin-right: 0;
+        padding-right: 0
+        ;
+        
+    }
